@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
@@ -220,8 +221,9 @@
             </div>
           </li>
           <li class="dropdown"><a href="#" data-toggle="dropdown" class="nav-link dropdown-toggle nav-link-lg nav-link-user">
-            <img alt="image" src="<?php echo base_url('assets/admin/assets/img/avatar/avatar-3.png'); ?>" class="rounded-circle mr-1">
-            <div class="d-sm-none d-lg-inline-block">Hi, Admin</div></a>
+              <img alt="image" src="<?php echo base_url('assets/admin/assets/img/avatar/avatar-3.png'); ?>" class="rounded-circle mr-1">
+              <div class="d-sm-none d-lg-inline-block">Hi, Admin</div>
+            </a>
             <div class="dropdown-menu dropdown-menu-right">
               <div class="dropdown-title">Logged in 10 min ago</div>
               <a href="features-profile.html" class="dropdown-item has-icon">
@@ -255,13 +257,13 @@
             <li><a class="nav-link" href="<?php echo site_url('kategori'); ?>"><i class="fas fa-th"></i><span>Kategori</span></a></li>
 
             <li class="nav-item dropdown">
-                <a href="#" class="nav-link has-dropdown"><i class="fas fa-plane"></i> <span>Jasa Pengiriman</span></a>
-                <ul class="dropdown-menu">
-            <li><a class="nav-link" href="<?=  site_url('kota'); ?>"><i class="fas fa-city"></i> <span>Kota</span> </a></li>
-            <li><a class="nav-link" href="<?=  site_url('kurir'); ?>"><i class="fas fa-truck"></i> <span>Kurir</span> </a></li>
-            <li><a class="nav-link" href="<?=  site_url('ongkir'); ?>"><i class="fas fa-money-bill-wave"></i> <span>Ongkos Kirim</span> </a></li>
-                </ul>
-              </li>
+              <a href="#" class="nav-link has-dropdown"><i class="fas fa-plane"></i> <span>Jasa Pengiriman</span></a>
+              <ul class="dropdown-menu">
+                <li><a class="nav-link" href="<?= site_url('kota'); ?>"><i class="fas fa-city"></i> <span>Kota</span> </a></li>
+                <li><a class="nav-link" href="<?= site_url('kurir'); ?>"><i class="fas fa-truck"></i> <span>Kurir</span> </a></li>
+                <li><a class="nav-link" href="<?= site_url('ongkir'); ?>"><i class="fas fa-money-bill-wave"></i> <span>Ongkos Kirim</span> </a></li>
+              </ul>
+            </li>
 
             <li><a class="nav-link" href="<?php echo site_url('member'); ?>"><i class="fas fa-user"></i><span>Member</span></a></li>
 
@@ -305,4 +307,5 @@
   <!-- Page Specific JS File -->
   <script src="<?php echo base_url('assets/admin/assets/js/page/index.js'); ?>"></script>
 </body>
+
 </html>
